@@ -1,14 +1,14 @@
 [user]
-	email = 4257730+ludfjig@users.noreply.github.com
-	name = Ludvig Liljenberg
+        email = 4257730+ludfjig@users.noreply.github.com
+        name = Ludvig Liljenberg
 [gpg]
-	format = ssh
+        format = ssh
 [commit]
-	gpgSign = true
+        gpgSign = true
 [alias]
-	c = commit
-	s = status
-	a = add
+        c = commit
+        s = status
+        a = add
 [column]
         ui = auto
 [branch]
@@ -16,12 +16,12 @@
 [tag]
         sort = version:refname
 [init]
-	defaultBranch = main
+        defaultBranch = main
 [diff]
         algorithm = histogram
         colorMoved = plain
         mnemonicPrefix = true
-	renames = true
+        renames = true
 [push]
         default = simple
         autoSetupRemote = true
@@ -37,4 +37,4 @@
         autoStash = true
         updateRefs = true
 [include]
-	path = "~/.gitconfig.local"
+        path = "~/.gitconfig.local"
