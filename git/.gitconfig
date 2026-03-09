@@ -1,40 +1,44 @@
 [user]
-        email = 4257730+ludfjig@users.noreply.github.com
-        name = Ludvig Liljenberg
+    email = 4257730+ludfjig@users.noreply.github.com
+    name = Ludvig Liljenberg
 [gpg]
-        format = ssh
+    format = ssh
 [commit]
-        gpgSign = true
+    gpgSign = true
 [alias]
-        c = commit
-        s = status
-        a = add
+    c = commit
+    s = status
+    a = add
 [column]
-        ui = auto
+    ui = auto
 [branch]
-        sort = -committerdate
+    sort = -committerdate
 [tag]
-        sort = version:refname
+    sort = version:refname
 [init]
-        defaultBranch = main
+    defaultBranch = main
 [diff]
-        algorithm = histogram
-        colorMoved = plain
-        mnemonicPrefix = true
-        renames = true
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicPrefix = true
+    renames = true
+[pull]
+    rebase = true
 [push]
-        default = simple
-        autoSetupRemote = true
+    default = simple
+    autoSetupRemote = true
 [fetch]
-        prune = true
+    prune = true
 [commit]
-        verbose = true
+    verbose = true
 [rerere]
-        enabled = true
-        autoupdate = true
+    enabled = true
+    autoupdate = true
 [rebase]
-        autoSquash = true
-        autoStash = true
-        updateRefs = true
+    autoSquash = true
+    autoStash = true
+    updateRefs = true
 [include]
-        path = "~/.gitconfig.local"
+    path = "~/.gitconfig.local"
+[credential]
+    azreposCredentialType = oauth
